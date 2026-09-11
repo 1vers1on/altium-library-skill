@@ -1,0 +1,583 @@
+{
+  "components": [
+    {
+      "name": "MC68EC000",
+      "description": "Motorola MC68EC000, 68-pin PLCC pinout from supplied diagram; three functional parts; no speed grade assumed.",
+      "manufacturer": "Motorola",
+      "package": "68-pin PLCC",
+      "datasheet": "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf",
+      "pin_count": 68,
+      "expected_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "manufacturer_part_number": "MC68EC000",
+      "parameters": {
+        "Pin Source": "Hand-checked against the source pin diagrams supplied in this conversation; see AGENT_GUIDE.md."
+      },
+      "units": [
+        {
+          "title": "ADDRESS / DATA BUS",
+          "width": 140,
+          "note": "",
+          "left": [
+            {
+              "title": "DATA",
+              "pins": [
+                {
+                  "number": "6",
+                  "name": "D0",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "5",
+                  "name": "D1",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "4",
+                  "name": "D2",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "3",
+                  "name": "D3",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "2",
+                  "name": "D4",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "68",
+                  "name": "D5",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "67",
+                  "name": "D6",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "66",
+                  "name": "D7",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "65",
+                  "name": "D8",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "64",
+                  "name": "D9",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "63",
+                  "name": "D10",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "62",
+                  "name": "D11",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "61",
+                  "name": "D12",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "60",
+                  "name": "D13",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "59",
+                  "name": "D14",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "58",
+                  "name": "D15",
+                  "electrical": "bidirectional",
+                  "description": ""
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "ADDRESS",
+              "pins": [
+                {
+                  "number": "31",
+                  "name": "A0",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "32",
+                  "name": "A1",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "33",
+                  "name": "A2",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "34",
+                  "name": "A3",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "36",
+                  "name": "A4",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "37",
+                  "name": "A5",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "38",
+                  "name": "A6",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "39",
+                  "name": "A7",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "40",
+                  "name": "A8",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "41",
+                  "name": "A9",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "42",
+                  "name": "A10",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "43",
+                  "name": "A11",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "44",
+                  "name": "A12",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "45",
+                  "name": "A13",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "46",
+                  "name": "A14",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "47",
+                  "name": "A15",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "48",
+                  "name": "A16",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "49",
+                  "name": "A17",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "50",
+                  "name": "A18",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "51",
+                  "name": "A19",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "52",
+                  "name": "A20",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "54",
+                  "name": "A21",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "55",
+                  "name": "A22",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "56",
+                  "name": "A23",
+                  "electrical": "tri_state",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BUS / SYSTEM CONTROL",
+          "width": 160,
+          "note": "",
+          "left": [
+            {
+              "title": "CLOCK / MODE",
+              "pins": [
+                {
+                  "number": "16",
+                  "name": "CLK",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "19",
+                  "name": "MODE",
+                  "electrical": "input",
+                  "description": "Static data bus width selection: low = 8-bit; high = 16-bit."
+                }
+              ]
+            },
+            {
+              "title": "SYSTEM",
+              "pins": [
+                {
+                  "number": "21",
+                  "name": "RESET#",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional active-low reset, open-drain output."
+                },
+                {
+                  "number": "20",
+                  "name": "HALT#",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional active-low halt, open-drain output."
+                },
+                {
+                  "number": "24",
+                  "name": "BERR#",
+                  "electrical": "input",
+                  "description": "Active-low bus error."
+                },
+                {
+                  "number": "11",
+                  "name": "DTACK#",
+                  "electrical": "input",
+                  "description": "Active-low data-transfer acknowledge."
+                }
+              ]
+            },
+            {
+              "title": "INTERRUPTS",
+              "pins": [
+                {
+                  "number": "27",
+                  "name": "IPL0#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "26",
+                  "name": "IPL1#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "25",
+                  "name": "IPL2#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "23",
+                  "name": "AVEC#",
+                  "electrical": "input",
+                  "description": "Active-low autovector request."
+                }
+              ]
+            },
+            {
+              "title": "BUS ARBITRATION",
+              "pins": [
+                {
+                  "number": "14",
+                  "name": "BR#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "13",
+                  "name": "BGACK#",
+                  "electrical": "input",
+                  "description": ""
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "BUS CYCLE",
+              "pins": [
+                {
+                  "number": "7",
+                  "name": "AS#",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "10",
+                  "name": "R/W#",
+                  "electrical": "tri_state",
+                  "description": "High selects read; low selects write."
+                },
+                {
+                  "number": "8",
+                  "name": "UDS#",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "9",
+                  "name": "LDS#",
+                  "electrical": "tri_state",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "FUNCTION CODE",
+              "pins": [
+                {
+                  "number": "30",
+                  "name": "FC0",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "29",
+                  "name": "FC1",
+                  "electrical": "tri_state",
+                  "description": ""
+                },
+                {
+                  "number": "28",
+                  "name": "FC2",
+                  "electrical": "tri_state",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "BUS GRANT",
+              "pins": [
+                {
+                  "number": "12",
+                  "name": "BG#",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "POWER / NO CONNECT",
+          "width": 140,
+          "note": "",
+          "left": [
+            {
+              "title": "+5V",
+              "pins": [
+                {
+                  "number": "15",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "53",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "NO CONNECT",
+              "pins": [
+                {
+                  "number": "22",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "No internal connection. Leave unconnected."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "GROUND",
+              "pins": [
+                {
+                  "number": "1",
+                  "name": "GND",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "17",
+                  "name": "GND",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "18",
+                  "name": "GND",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "35",
+                  "name": "GND",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "57",
+                  "name": "GND",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

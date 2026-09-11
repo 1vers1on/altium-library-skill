@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "name": "DEMO-HDR-2X10",
+      "description": "Schema demonstration only: a generic 2x10 0.1 inch header. One part, every pin on one side, body fitted automatically. Not a manufacturer part number.",
+      "designator_prefix": "J",
+      "package": "Generic 20-way header",
+      "manufacturer_part_number": "DEMO-HDR-2X10",
+      "pin_count": 20,
+      "expected_pin_numbers": [
+        "1-20"
+      ],
+      "parameters": {
+        "Pin Source": "Demonstration only"
+      },
+      "right": [
+        {
+          "number": "1",
+          "name": "P1",
+          "electrical": "passive"
+        },
+        {
+          "number": "2",
+          "name": "P2",
+          "electrical": "passive"
+        },
+        {
+          "number": "3",
+          "name": "P3",
+          "electrical": "passive"
+        },
+        {
+          "number": "4",
+          "name": "P4",
+          "electrical": "passive"
+        },
+        {
+          "number": "5",
+          "name": "P5",
+          "electrical": "passive"
+        },
+        {
+          "number": "6",
+          "name": "P6",
+          "electrical": "passive"
+        },
+        {
+          "number": "7",
+          "name": "P7",
+          "electrical": "passive"
+        },
+        {
+          "number": "8",
+          "name": "P8",
+          "electrical": "passive"
+        },
+        {
+          "number": "9",
+          "name": "P9",
+          "electrical": "passive"
+        },
+        {
+          "number": "10",
+          "name": "P10",
+          "electrical": "passive"
+        },
+        {
+          "number": "11",
+          "name": "P11",
+          "electrical": "passive"
+        },
+        {
+          "number": "12",
+          "name": "P12",
+          "electrical": "passive"
+        },
+        {
+          "number": "13",
+          "name": "P13",
+          "electrical": "passive"
+        },
+        {
+          "number": "14",
+          "name": "P14",
+          "electrical": "passive"
+        },
+        {
+          "number": "15",
+          "name": "P15",
+          "electrical": "passive"
+        },
+        {
+          "number": "16",
+          "name": "P16",
+          "electrical": "passive"
+        },
+        {
+          "number": "17",
+          "name": "P17",
+          "electrical": "passive"
+        },
+        {
+          "number": "18",
+          "name": "P18",
+          "electrical": "passive"
+        },
+        {
+          "number": "19",
+          "name": "P19",
+          "electrical": "passive"
+        },
+        {
+          "number": "20",
+          "name": "P20",
+          "electrical": "passive"
+        }
+      ]
+    },
+    {
+      "name": "DEMO-SINGLE-PART",
+      "description": "Schema demonstration only: one part, no functional split, group headings on the left and bare pins on the right. Not a manufacturer part number.",
+      "designator_prefix": "U",
+      "package": "Example package",
+      "manufacturer_part_number": "DEMO-SINGLE-PART",
+      "pin_count": 14,
+      "expected_pin_numbers": [
+        "1-14"
+      ],
+      "note": "Schema demonstration only",
+      "parameters": {
+        "Pin Source": "Demonstration only"
+      },
+      "left": [
+        {
+          "title": "CONTROL",
+          "pins": [
+            {
+              "number": "1",
+              "name": "CS#",
+              "electrical": "input",
+              "description": "Chip select, active low"
+            },
+            {
+              "number": "2",
+              "name": "RD#",
+              "electrical": "input"
+            },
+            {
+              "number": "3",
+              "name": "WR#",
+              "electrical": "input"
+            },
+            {
+              "number": "4",
+              "name": "RESET",
+              "electrical": "input"
+            }
+          ]
+        },
+        {
+          "title": "CLOCK",
+          "pins": [
+            {
+              "number": "5",
+              "name": "XTAL1",
+              "electrical": "input"
+            },
+            {
+              "number": "6",
+              "name": "XTAL2",
+              "electrical": "output"
+            }
+          ]
+        }
+      ],
+      "right": [
+        {
+          "number": "7",
+          "name": "D0",
+          "electrical": "bidirectional"
+        },
+        {
+          "number": "8",
+          "name": "D1",
+          "electrical": "bidirectional"
+        },
+        {
+          "number": "9",
+          "name": "D2",
+          "electrical": "bidirectional"
+        },
+        {
+          "number": "10",
+          "name": "D3",
+          "electrical": "bidirectional"
+        },
+        {
+          "title": "POWER",
+          "pins": [
+            {
+              "number": "11",
+              "name": "VCC",
+              "electrical": "power"
+            },
+            {
+              "number": "12",
+              "name": "GND",
+              "electrical": "power"
+            },
+            {
+              "number": "13",
+              "name": "AVCC",
+              "electrical": "power"
+            },
+            {
+              "number": "14",
+              "name": "NC",
+              "electrical": "passive",
+              "description": "No internal connection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

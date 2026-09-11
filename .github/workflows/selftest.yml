@@ -1,0 +1,65 @@
+name: selftest
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    name: ${{ matrix.os }} / Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+
+      # Builds and reads back every bundled example. This is the real test:
+      # it exercises the CFB writer and reader, both generators, both checkers,
+      # the independent-map comparison and the PNG renderer.
+      - name: Build and check every bundled example
+        run: python scripts/toolkit.py selftest
+
+      # The README promises a stock interpreter with no install step. Prove it
+      # rather than trusting that nobody added a convenience import.
+      - name: Audit that only the standard library is imported
+        run: python .github/check_no_dependencies.py
+
+      - name: Refuse to run with assertions stripped
+        shell: bash
+        env:
+          PYTHONOPTIMIZE: "1"
+        run: |
+          if python scripts/toolkit.py selftest; then
+            echo "::error::the toolkit ran under PYTHONOPTIMIZE; validation assertions would be stripped"
+            exit 1
+          fi
+          echo "ok: optimized execution is refused"
+
+  integrity:
+    name: integrity manifest is current
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # scripts/INTEGRITY.json is how a run reports whether the toolkit was
+      # edited after its manifest was recorded. A stale manifest makes every
+      # validation.json a user generates carry a spurious "modified" warning,
+      # which devalues the real one.
+      - name: Check scripts/INTEGRITY.json matches the sources
+        run: python .github/check_integrity.py

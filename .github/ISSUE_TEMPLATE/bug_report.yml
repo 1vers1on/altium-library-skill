@@ -1,0 +1,67 @@
+name: Bug report
+description: A library that is wrong, a check that fails, or a crash.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A bad library is almost never reproducible from a description alone.
+        The source JSON and the `validation.json` from your QA directory are
+        usually enough to diagnose it outright.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected, and what you got instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: command
+    attributes:
+      label: Command
+      description: The exact command you ran, and its full output.
+      render: shell
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source JSON
+      description: >
+        The JSON you built from, trimmed to the smallest version that still
+        reproduces the problem. Attach the file if it is large.
+      render: json
+    validations:
+      required: true
+
+  - type: textarea
+    id: validation
+    attributes:
+      label: validation.json
+      description: >
+        From your `--qa-dir`, if the build got that far. Its provenance block
+        records the toolkit version, file digests and integrity state.
+      render: json
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Python version and OS
+      placeholder: "3.12.10 on Windows 11"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: "`python scripts/toolkit.py selftest` passes on my machine"
+          required: false
+        - label: I have not edited anything under `scripts/`
+          required: false

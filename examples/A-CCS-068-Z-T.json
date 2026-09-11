@@ -1,0 +1,1114 @@
+{
+  "name": "A-CCS-068-Z-T",
+  "description": "Assmann A-CCS 068-Z-T, PLCC-68 THT socket for MC68EC000; ASS 0981 CO rev11; body 30.80 x 30.80 mm; 2.54 mm PCB grid; 68 plated 0.80 mm holes / 1.60 mm pads; pin 1 top center, top view; M2 component outline, M9 assembly, M11 designator, M15 courtyard; user component layer pairs; maximum height 8.43 mm.",
+  "height_mm": 8.43,
+  "layer_profile": "example-layers.json",
+  "expected_pin_numbers": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68"
+  ],
+  "pads": [
+    {
+      "number": "61",
+      "at": [
+        10.16,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "62",
+      "at": [
+        10.16,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "63",
+      "at": [
+        7.62,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "64",
+      "at": [
+        7.62,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "65",
+      "at": [
+        5.08,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "66",
+      "at": [
+        5.08,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "67",
+      "at": [
+        2.54,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "68",
+      "at": [
+        2.54,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "1",
+      "at": [
+        0.0,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "square",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "2",
+      "at": [
+        0.0,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "3",
+      "at": [
+        -2.54,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "4",
+      "at": [
+        -2.54,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "5",
+      "at": [
+        -5.08,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "6",
+      "at": [
+        -5.08,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "7",
+      "at": [
+        -7.62,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "8",
+      "at": [
+        -7.62,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "9",
+      "at": [
+        -10.16,
+        12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "10",
+      "at": [
+        -12.7,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "11",
+      "at": [
+        -10.16,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "12",
+      "at": [
+        -12.7,
+        7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "13",
+      "at": [
+        -10.16,
+        7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "14",
+      "at": [
+        -12.7,
+        5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "15",
+      "at": [
+        -10.16,
+        5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "16",
+      "at": [
+        -12.7,
+        2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "17",
+      "at": [
+        -10.16,
+        2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "18",
+      "at": [
+        -12.7,
+        0.0
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "19",
+      "at": [
+        -10.16,
+        0.0
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "20",
+      "at": [
+        -12.7,
+        -2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "21",
+      "at": [
+        -10.16,
+        -2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "22",
+      "at": [
+        -12.7,
+        -5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "23",
+      "at": [
+        -10.16,
+        -5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "24",
+      "at": [
+        -12.7,
+        -7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "25",
+      "at": [
+        -10.16,
+        -7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "26",
+      "at": [
+        -12.7,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "27",
+      "at": [
+        -10.16,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "28",
+      "at": [
+        -10.16,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "29",
+      "at": [
+        -7.62,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "30",
+      "at": [
+        -7.62,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "31",
+      "at": [
+        -5.08,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "32",
+      "at": [
+        -5.08,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "33",
+      "at": [
+        -2.54,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "34",
+      "at": [
+        -2.54,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "35",
+      "at": [
+        0.0,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "36",
+      "at": [
+        0.0,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "37",
+      "at": [
+        2.54,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "38",
+      "at": [
+        2.54,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "39",
+      "at": [
+        5.08,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "40",
+      "at": [
+        5.08,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "41",
+      "at": [
+        7.62,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "42",
+      "at": [
+        7.62,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "43",
+      "at": [
+        10.16,
+        -12.7
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "44",
+      "at": [
+        12.7,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "45",
+      "at": [
+        10.16,
+        -10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "46",
+      "at": [
+        12.7,
+        -7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "47",
+      "at": [
+        10.16,
+        -7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "48",
+      "at": [
+        12.7,
+        -5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "49",
+      "at": [
+        10.16,
+        -5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "50",
+      "at": [
+        12.7,
+        -2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "51",
+      "at": [
+        10.16,
+        -2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "52",
+      "at": [
+        12.7,
+        0.0
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "53",
+      "at": [
+        10.16,
+        0.0
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "54",
+      "at": [
+        12.7,
+        2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "55",
+      "at": [
+        10.16,
+        2.54
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "56",
+      "at": [
+        12.7,
+        5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "57",
+      "at": [
+        10.16,
+        5.08
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "58",
+      "at": [
+        12.7,
+        7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "59",
+      "at": [
+        10.16,
+        7.62
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    },
+    {
+      "number": "60",
+      "at": [
+        12.7,
+        10.16
+      ],
+      "diameter_mm": 1.6,
+      "hole_mm": 0.8,
+      "shape": "round",
+      "solder_mask_expansion_mm": 0.075
+    }
+  ],
+  "tracks": [
+    {
+      "start": [
+        -15.749999,
+        -15.749999
+      ],
+      "end": [
+        15.749999,
+        -15.749999
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        15.749999,
+        -15.749999
+      ],
+      "end": [
+        15.749999,
+        15.749999
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        15.749999,
+        15.749999
+      ],
+      "end": [
+        -15.749999,
+        15.749999
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        -15.749999,
+        15.749999
+      ],
+      "end": [
+        -15.749999,
+        -15.749999
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        -0.499999,
+        16.65
+      ],
+      "end": [
+        0.499999,
+        16.65
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        0.499999,
+        16.65
+      ],
+      "end": [
+        0.0,
+        16.050001
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        0.0,
+        16.050001
+      ],
+      "end": [
+        -0.499999,
+        16.65
+      ],
+      "layer": 33,
+      "width_mm": 0.15
+    },
+    {
+      "start": [
+        -15.4,
+        -15.4
+      ],
+      "end": [
+        15.4,
+        -15.4
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        15.4,
+        -15.4
+      ],
+      "end": [
+        15.4,
+        15.4
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        15.4,
+        15.4
+      ],
+      "end": [
+        -15.4,
+        15.4
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        -15.4,
+        15.4
+      ],
+      "end": [
+        -15.4,
+        -15.4
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        -0.499999,
+        14.700001
+      ],
+      "end": [
+        0.499999,
+        14.700001
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        0.499999,
+        14.700001
+      ],
+      "end": [
+        0.0,
+        14.0
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        0.0,
+        14.0
+      ],
+      "end": [
+        -0.499999,
+        14.700001
+      ],
+      "layer": 65,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        -16.000001,
+        -16.000001
+      ],
+      "end": [
+        16.000001,
+        -16.000001
+      ],
+      "layer": 71,
+      "width_mm": 0.05
+    },
+    {
+      "start": [
+        16.000001,
+        -16.000001
+      ],
+      "end": [
+        16.000001,
+        16.000001
+      ],
+      "layer": 71,
+      "width_mm": 0.05
+    },
+    {
+      "start": [
+        16.000001,
+        16.000001
+      ],
+      "end": [
+        -16.000001,
+        16.000001
+      ],
+      "layer": 71,
+      "width_mm": 0.05
+    },
+    {
+      "start": [
+        -16.000001,
+        16.000001
+      ],
+      "end": [
+        -16.000001,
+        -16.000001
+      ],
+      "layer": 71,
+      "width_mm": 0.05
+    },
+    {
+      "start": [
+        -15.4,
+        -15.4
+      ],
+      "end": [
+        15.4,
+        -15.4
+      ],
+      "layer": 58,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        15.4,
+        -15.4
+      ],
+      "end": [
+        15.4,
+        15.4
+      ],
+      "layer": 58,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        15.4,
+        15.4
+      ],
+      "end": [
+        -15.4,
+        15.4
+      ],
+      "layer": 58,
+      "width_mm": 0.1
+    },
+    {
+      "start": [
+        -15.4,
+        15.4
+      ],
+      "end": [
+        -15.4,
+        -15.4
+      ],
+      "layer": 58,
+      "width_mm": 0.1
+    }
+  ],
+  "texts": [
+    {
+      "text": ".Designator",
+      "at": [
+        0.0,
+        17.7
+      ],
+      "layer": 33,
+      "height_mm": 1.25,
+      "stroke_mm": 0.15
+    },
+    {
+      "text": ".Designator",
+      "at": [
+        0.0,
+        0.0
+      ],
+      "layer": 67,
+      "height_mm": 1.5,
+      "stroke_mm": 0.15
+    }
+  ]
+}

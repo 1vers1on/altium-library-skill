@@ -1,0 +1,24 @@
+{
+  "algorithm": "sha256",
+  "digest": "e97ecb9757fc06bba6841ca64faa9044369576fb572787b5eae75fef552169e3",
+  "files": {
+    "scripts/altium_tools/__init__.py": "d8335a10a0805de0a33369e4feca062d8882362729ba8be79adb1a66ae5b900a",
+    "scripts/altium_tools/common.py": "ad0dfd61ee9b59f91c4b99ce8facf8e8e4e85d308c85adf289ffea36d31a36a3",
+    "scripts/altium_tools/generators.py": "dc50a7c1b87a6ff0b99f01c6315ecdc1ef674acc5da0a160453290a255004523",
+    "scripts/altium_tools/geometry.py": "5636eb50bccbeaf44665f75d9c93565b2a3d01c5c0562875efe6bfc797176eb4",
+    "scripts/altium_tools/metrics.py": "d401f45cc919e860088540383ad8a136d81780fe54d05639f073ebde7af82782",
+    "scripts/altium_tools/pcb.py": "686753f35b42ca7966cb26b8cf302f67a5d1e2c8934c610d33fdc7951d28b7ef",
+    "scripts/altium_tools/pcb_layers.py": "6b6c3d073b38188902571011f24c681d4b9c0a9ac646f1bdbf96bbcf17214a74",
+    "scripts/altium_tools/provenance.py": "d66fd74c4673dcb975f0733b7890682c253d1573d05361a6b60ada1c96c969e9",
+    "scripts/altium_tools/schematic.py": "3ad8f2f233e8a84306462973e28de23f474b70348b14c72a734bf814e1ab83fe",
+    "scripts/altium_tools/selftest.py": "dab922d3ecea15bbed541784cf8784831ceb7c0ec1399202e5b160cab636e572",
+    "scripts/altium_tools/validation.py": "3d03f98776fd95b8a8dfb44629aa687a39566a75770147aeb367fac4e9fd91ee",
+    "scripts/altium_tools/vendor/__init__.py": "f5e481fc2c40e746c93ea238a6dddbac7fd3039af281ab63d3dceda941f41837",
+    "scripts/altium_tools/vendor/altium.py": "8c38b9b0bd0b0247cfee95ea9cedfe297eff1a7f9e1c9c3b4014f34021cfa709",
+    "scripts/altium_tools/vendor/cfb.py": "c1a7de4982599c4c417bc584b1cc7d1aac305506b0da69638fb815008fef3d6c",
+    "scripts/altium_tools/vendor/raster.py": "124e2527e1126ddb1da964ad7f79c78aeb143c881ccac9478fe11b147b13ed19",
+    "scripts/altium_tools/vendor/strokefont.py": "c0c52a7f40e2756d6c98bafd965c4e0e8293f99333244dcea350acee9baccf5a",
+    "scripts/toolkit.py": "53ae8a5bec4c4c2d5b29bf806a3e11277c82b3c7b3e871e32f4f8555de04b909"
+  },
+  "recorded": "2026-09-11T16:19:17Z"
+}

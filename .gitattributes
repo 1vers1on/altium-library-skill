@@ -1,0 +1,17 @@
+# Text files are normalised to LF in the repository and checked out as LF, so a
+# digest recorded on one platform matches the same file on another. The toolkit
+# hashes its own sources (scripts/INTEGRITY.json), so a CRLF checkout would make
+# an unmodified toolkit report as modified.
+* text=auto eol=lf
+
+# Altium libraries are byte-exact compound-file binaries, and the bundled
+# template is read verbatim by the PCB writer. Never let Git apply end-of-line
+# or text conversion to them: one substituted byte makes the container
+# unreadable and the readback checker fail for a reason that is not in the JSON.
+*.PcbLib binary
+*.SchLib binary
+
+# Other binary assets.
+*.png binary
+*.pdf binary
+*.zip binary

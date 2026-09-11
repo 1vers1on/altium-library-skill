@@ -1,0 +1,20 @@
+{
+  "name": "DEMO-FOOTPRINT-FEATURES",
+  "description": "Fictional feature-coverage footprint; not for manufacture.",
+  "height_mm": 3.0,
+  "layer_profile": "example-layers.json",
+  "expected_pin_numbers": ["1", "2", "3", "4"],
+  "pads": [
+    {"number": "1", "at": [-2, 0], "type": "smd", "size_mm": [2, 1], "shape": "rounded_rect", "rotation": 15, "layer": "Top"},
+    {"number": "2", "at": [2, 0], "type": "tht", "size_mm": [2, 1.6], "shape": "oval", "rotation": 90, "hole_mm": 0.8, "hole_shape": "slot", "slot_length_mm": 1.4, "slot_rotation": 90}
+  ],
+  "pad_arrays": [
+    {"kind": "linear", "count": 2, "pitch_mm": 1.5, "start": [-0.75, -2], "size_mm": 1, "hole_mm": 0.5, "shape": "round", "start_number": 3}
+  ],
+  "outlines": [{"shape": "rect", "center": [0, 0], "size_mm": [7, 6], "layer": "TopOverlay", "width_mm": 0.2}],
+  "arcs": [{"center": [0, 0], "radius_mm": 3.5, "start_angle": 0, "end_angle": 180, "layer": "M2", "width_mm": 0.1}],
+  "fills": [{"corner1": [-1, 1], "corner2": [1, 1.5], "layer": "TopOverlay", "rotation": 10}],
+  "regions": [{"outline": [[-3, -3], [-2.5, -3], [-2.5, -2.5]], "layer": "Top", "name": "copper-demo"}],
+  "texts": [{"text": ".Designator", "at": [0, 4], "layer": "TopOverlay", "height_mm": 1, "anchor": "bottom-center", "font": "truetype", "bold": true}],
+  "bodies": [{"outline": [[-3, -2], [3, -2], [3, 2], [-3, 2]], "height_mm": 3, "color": "#6688CC", "layer": "M13"}]
+}

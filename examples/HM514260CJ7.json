@@ -1,0 +1,358 @@
+{
+  "components": [
+    {
+      "name": "HM514260CJ7",
+      "description": "Hitachi HM514260CJ-7 (HM514260CJ7); 256K x 16 fast-page-mode DRAM, 70 ns, 5 V, 40-pin SOJ. Two functional parts.",
+      "manufacturer": "Hitachi",
+      "package": "40-pin SOJ, CP-40DA, 400 mil",
+      "datasheet": "https://www.mpartn.com/wp-content/uploads/2020/03/hm514260c.pdf",
+      "pin_count": 40,
+      "expected_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
+      "manufacturer_part_number": "HM514260CJ-7",
+      "parameters": {
+        "Pin Source": "Hand-checked against the source pin diagrams supplied in this conversation; see AGENT_GUIDE.md."
+      },
+      "units": [
+        {
+          "title": "256K x 16 DRAM",
+          "width": 160,
+          "note": "",
+          "left": [
+            {
+              "title": "ADDRESS",
+              "pins": [
+                {
+                  "number": "16",
+                  "name": "A0",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "17",
+                  "name": "A1",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "18",
+                  "name": "A2",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "19",
+                  "name": "A3",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "22",
+                  "name": "A4",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "23",
+                  "name": "A5",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "24",
+                  "name": "A6",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "25",
+                  "name": "A7",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                },
+                {
+                  "number": "26",
+                  "name": "A8",
+                  "electrical": "input",
+                  "description": "Multiplexed row, column and refresh address input."
+                }
+              ]
+            },
+            {
+              "title": "CONTROL",
+              "pins": [
+                {
+                  "number": "14",
+                  "name": "RAS#",
+                  "electrical": "input",
+                  "description": "Active-low row-address strobe."
+                },
+                {
+                  "number": "29",
+                  "name": "LCAS#",
+                  "electrical": "input",
+                  "description": "Active-low column-address strobe for the lower byte, I/O0 through I/O7."
+                },
+                {
+                  "number": "28",
+                  "name": "UCAS#",
+                  "electrical": "input",
+                  "description": "Active-low column-address strobe for the upper byte, I/O8 through I/O15."
+                },
+                {
+                  "number": "13",
+                  "name": "WE#",
+                  "electrical": "input",
+                  "description": "Active-low write enable."
+                },
+                {
+                  "number": "27",
+                  "name": "OE#",
+                  "electrical": "input",
+                  "description": "Active-low output enable."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "LOW BYTE",
+              "pins": [
+                {
+                  "number": "2",
+                  "name": "I/O0",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "3",
+                  "name": "I/O1",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "4",
+                  "name": "I/O2",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "5",
+                  "name": "I/O3",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "7",
+                  "name": "I/O4",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "8",
+                  "name": "I/O5",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "9",
+                  "name": "I/O6",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                },
+                {
+                  "number": "10",
+                  "name": "I/O7",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional lower-byte data, controlled by LCAS."
+                }
+              ]
+            },
+            {
+              "title": "HIGH BYTE",
+              "pins": [
+                {
+                  "number": "31",
+                  "name": "I/O8",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "32",
+                  "name": "I/O9",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "33",
+                  "name": "I/O10",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "34",
+                  "name": "I/O11",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "36",
+                  "name": "I/O12",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "37",
+                  "name": "I/O13",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "38",
+                  "name": "I/O14",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                },
+                {
+                  "number": "39",
+                  "name": "I/O15",
+                  "electrical": "bidirectional",
+                  "description": "Bidirectional upper-byte data, controlled by UCAS."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "POWER / NC",
+          "width": 130,
+          "note": "",
+          "left": [
+            {
+              "title": "+5 V",
+              "pins": [
+                {
+                  "number": "1",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": "Positive supply; connect all VCC pins to the same +5 V supply."
+                },
+                {
+                  "number": "6",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": "Positive supply; connect all VCC pins to the same +5 V supply."
+                },
+                {
+                  "number": "20",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": "Positive supply; connect all VCC pins to the same +5 V supply."
+                }
+              ]
+            },
+            {
+              "title": "NO CONNECT",
+              "pins": [
+                {
+                  "number": "11",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "No internal connection; leave unconnected."
+                },
+                {
+                  "number": "12",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "No internal connection; leave unconnected."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "GROUND",
+              "pins": [
+                {
+                  "number": "21",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": "Ground; connect all VSS pins to the same ground."
+                },
+                {
+                  "number": "35",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": "Ground; connect all VSS pins to the same ground."
+                },
+                {
+                  "number": "40",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": "Ground; connect all VSS pins to the same ground."
+                }
+              ]
+            },
+            {
+              "title": "NO CONNECT",
+              "pins": [
+                {
+                  "number": "15",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "No internal connection; leave unconnected."
+                },
+                {
+                  "number": "30",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "No internal connection; leave unconnected."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

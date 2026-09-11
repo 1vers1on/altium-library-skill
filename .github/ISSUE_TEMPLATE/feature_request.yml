@@ -1,0 +1,36 @@
+name: Feature request
+description: Support for a package, primitive or layout this toolkit cannot express yet.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The scope here is deliberately narrow: new features should extend
+        *verified* generation. Anything the generator can write, the checker
+        should be able to read back and confirm.
+
+  - type: textarea
+    id: need
+    attributes:
+      label: What you are trying to build
+      description: The part, package or layout, with a link to the datasheet if there is one.
+    validations:
+      required: true
+
+  - type: textarea
+    id: blocked
+    attributes:
+      label: Why the current schema cannot express it
+      description: What you tried, and where it fell short.
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: How a checker could verify it
+      description: >
+        Optional, but the most useful part. What would readback have to confirm
+        for a generated file to be trustworthy?
+    validations:
+      required: false

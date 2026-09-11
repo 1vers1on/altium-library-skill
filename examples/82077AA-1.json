@@ -1,0 +1,642 @@
+{
+  "components": [
+    {
+      "name": "82077AA-1",
+      "description": "Intel 82077AA-1 floppy-disk controller, 68-pin PLCC. Four functional symbol parts; all physical pins visible.",
+      "manufacturer": "Intel",
+      "package": "68-pin PLCC",
+      "datasheet": "https://www.ardent-tool.com/datasheets/Intel_82077AA.pdf",
+      "pin_count": 68,
+      "expected_pin_numbers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68"
+      ],
+      "manufacturer_part_number": "82077AA-1",
+      "parameters": {
+        "Pin Source": "Hand-checked against the source pin diagrams supplied in this conversation; see AGENT_GUIDE.md."
+      },
+      "units": [
+        {
+          "title": "HOST INTERFACE",
+          "width": 160,
+          "note": "",
+          "left": [
+            {
+              "title": "REGISTER ADDRESS",
+              "pins": [
+                {
+                  "number": "7",
+                  "name": "A0",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "8",
+                  "name": "A1",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "10",
+                  "name": "A2",
+                  "electrical": "input",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "HOST CONTROL",
+              "pins": [
+                {
+                  "number": "6",
+                  "name": "CS#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "4",
+                  "name": "RD#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "5",
+                  "name": "WR#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "32",
+                  "name": "RESET",
+                  "electrical": "input",
+                  "description": "Active-high hardware reset."
+                }
+              ]
+            },
+            {
+              "title": "DMA INPUTS",
+              "pins": [
+                {
+                  "number": "3",
+                  "name": "DACK#",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "25",
+                  "name": "TC",
+                  "electrical": "input",
+                  "description": "Terminal count: high-active in AT/Model 30; low-active in PS/2."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "DATA BUS",
+              "pins": [
+                {
+                  "number": "11",
+                  "name": "DB0",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "13",
+                  "name": "DB1",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "14",
+                  "name": "DB2",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "15",
+                  "name": "DB3",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "17",
+                  "name": "DB4",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "19",
+                  "name": "DB5",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "20",
+                  "name": "DB6",
+                  "electrical": "bidirectional",
+                  "description": ""
+                },
+                {
+                  "number": "22",
+                  "name": "DB7",
+                  "electrical": "bidirectional",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "DMA / INTERRUPT",
+              "pins": [
+                {
+                  "number": "24",
+                  "name": "DRQ",
+                  "electrical": "tri_state",
+                  "description": "Gated three-state DMA request."
+                },
+                {
+                  "number": "23",
+                  "name": "INT",
+                  "electrical": "tri_state",
+                  "description": "Gated three-state interrupt output."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "DRIVE INTERFACE",
+          "width": 190,
+          "note": "Drive polarity: INVERT / IDENT",
+          "left": [
+            {
+              "title": "DRIVE STATUS",
+              "pins": [
+                {
+                  "number": "1",
+                  "name": "WP",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "2",
+                  "name": "TRK0",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "26",
+                  "name": "INDX",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "31",
+                  "name": "DSKCHG",
+                  "electrical": "input",
+                  "description": ""
+                },
+                {
+                  "number": "30",
+                  "name": "DRV2",
+                  "electrical": "input",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "READ DATA",
+              "pins": [
+                {
+                  "number": "41",
+                  "name": "RDDATA",
+                  "electrical": "input",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "DENSITY",
+              "pins": [
+                {
+                  "number": "49",
+                  "name": "DENSEL",
+                  "electrical": "output",
+                  "description": "Density-output polarity depends on IDENT and INVERT."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "DRIVE SELECT",
+              "pins": [
+                {
+                  "number": "58",
+                  "name": "DS0",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "62",
+                  "name": "DS1",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "64",
+                  "name": "DS2",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "67",
+                  "name": "DS3",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "MOTOR ENABLE",
+              "pins": [
+                {
+                  "number": "57",
+                  "name": "ME0",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "61",
+                  "name": "ME1",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "63",
+                  "name": "ME2",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "66",
+                  "name": "ME3",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "HEAD CONTROL",
+              "pins": [
+                {
+                  "number": "56",
+                  "name": "DIR",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "55",
+                  "name": "STEP",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "51",
+                  "name": "HDSEL",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "WRITE DATA",
+              "pins": [
+                {
+                  "number": "53",
+                  "name": "WRDATA",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "52",
+                  "name": "WE",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CLOCK / CONFIG / PLL",
+          "width": 200,
+          "note": "",
+          "left": [
+            {
+              "title": "24 MHz OSCILLATOR",
+              "pins": [
+                {
+                  "number": "33",
+                  "name": "X1",
+                  "electrical": "input",
+                  "description": "Crystal input or external clock input."
+                },
+                {
+                  "number": "34",
+                  "name": "X2",
+                  "electrical": "output",
+                  "description": "Crystal oscillator output; unused with external clock."
+                }
+              ]
+            },
+            {
+              "title": "CONFIGURATION",
+              "pins": [
+                {
+                  "number": "27",
+                  "name": "IDENT",
+                  "electrical": "input",
+                  "description": "Host-mode strap; also selects DENSEL polarity."
+                },
+                {
+                  "number": "35",
+                  "name": "INVERT#",
+                  "electrical": "input",
+                  "description": "Low selects internal cable inversion; high requires external inverting buffers."
+                },
+                {
+                  "number": "39",
+                  "name": "PLL0",
+                  "electrical": "input",
+                  "description": "High: floppy separator; low: tape separator."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "DATA RATE",
+              "pins": [
+                {
+                  "number": "28",
+                  "name": "DRATE0",
+                  "electrical": "output",
+                  "description": ""
+                },
+                {
+                  "number": "29",
+                  "name": "DRATE1",
+                  "electrical": "output",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "ENCODING / STRAP",
+              "pins": [
+                {
+                  "number": "48",
+                  "name": "MFM",
+                  "electrical": "bidirectional",
+                  "description": "Reset-time mode input; encoding-status output afterward."
+                }
+              ]
+            },
+            {
+              "title": "ANALOG FILTER",
+              "pins": [
+                {
+                  "number": "38",
+                  "name": "HIFIL",
+                  "electrical": "bidirectional",
+                  "description": "Analog reference; external filter capacitor to LOFIL."
+                },
+                {
+                  "number": "37",
+                  "name": "LOFIL",
+                  "electrical": "bidirectional",
+                  "description": "Analog filter return, paired with HIFIL."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "POWER / NC",
+          "width": 160,
+          "note": "",
+          "left": [
+            {
+              "title": "+5 V DIGITAL",
+              "pins": [
+                {
+                  "number": "18",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "40",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "60",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "68",
+                  "name": "VCC",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "+5 V ANALOG",
+              "pins": [
+                {
+                  "number": "46",
+                  "name": "AVCC",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "NO CONNECT",
+              "pins": [
+                {
+                  "number": "42",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "Leave unconnected."
+                },
+                {
+                  "number": "43",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "Leave unconnected."
+                },
+                {
+                  "number": "44",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "Leave unconnected."
+                },
+                {
+                  "number": "47",
+                  "name": "NC",
+                  "electrical": "passive",
+                  "description": "Leave unconnected."
+                }
+              ]
+            }
+          ],
+          "right": [
+            {
+              "title": "DIGITAL GROUND",
+              "pins": [
+                {
+                  "number": "9",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "12",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "16",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "21",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "36",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "50",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "54",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "59",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                },
+                {
+                  "number": "65",
+                  "name": "VSS",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            },
+            {
+              "title": "ANALOG GROUND",
+              "pins": [
+                {
+                  "number": "45",
+                  "name": "AVSS",
+                  "electrical": "power",
+                  "description": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

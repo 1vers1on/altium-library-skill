@@ -1,0 +1,41 @@
+{
+  "name": "Example layer pairs",
+  "standalone": [
+    {
+      "number": 1,
+      "name": "Mechanical 1"
+    }
+  ],
+  "pairs": [
+    {
+      "top": 13,
+      "bottom": 14,
+      "role": "3DBody"
+    },
+    {
+      "top": 9,
+      "bottom": 10,
+      "role": "Assembly"
+    },
+    {
+      "top": 17,
+      "bottom": 18,
+      "role": "ComponentCenter"
+    },
+    {
+      "top": 2,
+      "bottom": 3,
+      "role": "ComponentOutline"
+    },
+    {
+      "top": 15,
+      "bottom": 16,
+      "role": "Courtyard"
+    },
+    {
+      "top": 11,
+      "bottom": 12,
+      "role": "Designator"
+    }
+  ]
+}
